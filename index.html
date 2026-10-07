@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>From Waste to Worth | UVic Food Redistribution Project</title>
+  <meta name="description" content="From Waste to Worth is a CSC 375 systems analysis project focused on improving surplus food redistribution around the University of Victoria campus." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#home" aria-label="From Waste to Worth home">
+        <span class="brand-mark">W</span>
+        <span>
+          <strong>From Waste to Worth</strong>
+          <small>CSC 375 · Systems Analysis</small>
+        </span>
+      </a>
+      <button class="menu-btn" aria-label="Toggle navigation">☰</button>
+      <nav class="nav-links">
+        <a href="#project">Project</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#scope">Scope</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#about-us">Know More About Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <div class="eyebrow">University of Victoria · CSC 375</div>
+          <h1>Turning surplus food into <span>shared value.</span></h1>
+          <p class="hero-lead">
+            From Waste to Worth is a systems analysis project exploring a clearer,
+            faster way to coordinate edible surplus food redistribution around the UVic campus.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#project">Explore the project</a>
+            <a class="btn secondary" href="#workflow">See the workflow</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>1</strong><span>shared workflow</span></div>
+            <div><strong>4</strong><span>project goals</span></div>
+            <div><strong>6+</strong><span>stakeholder groups</span></div>
+          </div>
+        </div>
+
+        <div class="hero-card" aria-label="Donation lifecycle preview">
+          <div class="card-top">
+            <span>Donation lifecycle</span>
+            <span class="live-dot">Concept</span>
+          </div>
+          <div class="food-card">
+            <div class="food-icon">🥗</div>
+            <div>
+              <strong>Prepared food surplus</strong>
+              <span>UVic Food Service</span>
+            </div>
+            <span class="tag">Available</span>
+          </div>
+          <div class="flow-step done">
+            <span>01</span><div><strong>Record</strong><small>Type, quantity, pickup window</small></div>
+          </div>
+          <div class="flow-line"></div>
+          <div class="flow-step active">
+            <span>02</span><div><strong>Check & Match</strong><small>Eligibility and approved recipients</small></div>
+          </div>
+          <div class="flow-line"></div>
+          <div class="flow-step">
+            <span>03</span><div><strong>Pickup</strong><small>Coordinate collection and delivery</small></div>
+          </div>
+          <div class="flow-line"></div>
+          <div class="flow-step">
+            <span>04</span><div><strong>Track & Report</strong><small>Confirm transfer and keep records</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="project">
+      <div class="section-heading">
+        <span>About the Project</span>
+        <h2>Why this project is needed.</h2>
+        <p>
+          Edible surplus food can have a short usable life. When coordination depends on
+          emails, messages, and informal communication, it can be difficult to know what is
+          available, whether it is eligible, who can accept it, and whether pickup can happen in time.
+        </p>
+      </div>
+
+      <div class="problem-grid">
+        <article class="panel">
+          <div class="icon-badge">!</div>
+          <h3>What is happening now</h3>
+          <p>Information can be scattered across informal channels, making time-sensitive redistribution harder to coordinate.</p>
+        </article>
+        <article class="panel">
+          <div class="icon-badge">↔</div>
+          <h3>What we are proposing</h3>
+          <p>A common workflow for recording surplus food, checking eligibility, coordinating recipients and pickups, and tracking outcomes.</p>
+        </article>
+        <article class="panel">
+          <div class="icon-badge">✓</div>
+          <h3>Why it could help</h3>
+          <p>Better visibility, less manual coordination, clearer records, and reduced avoidable disposal of edible food.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alt" id="workflow">
+      <div class="section-heading">
+        <span>How the System Would Work</span>
+        <h2>How the proposed system would work.</h2>
+      </div>
+
+      <div class="workflow">
+        <article>
+          <div class="step-no">01</div>
+          <h3>Record surplus</h3>
+          <p>Food-service staff enter food type, quantity, availability, pickup location, and time information.</p>
+        </article>
+        <article>
+          <div class="step-no">02</div>
+          <h3>Check eligibility</h3>
+          <p>Required donation and food-safety information is reviewed before food is offered to recipients.</p>
+        </article>
+        <article>
+          <div class="step-no">03</div>
+          <h3>Recipient response</h3>
+          <p>Approved recipient organizations review available donations and decide whether they can accept them in time.</p>
+        </article>
+        <article>
+          <div class="step-no">04</div>
+          <h3>Coordinate pickup</h3>
+          <p>Pickup personnel receive collection and delivery information and confirm transfer steps.</p>
+        </article>
+        <article>
+          <div class="step-no">05</div>
+          <h3>Track status</h3>
+          <p>Each donation is followed through the redistribution process using a clear current status.</p>
+        </article>
+        <article>
+          <div class="step-no">06</div>
+          <h3>Support reporting</h3>
+          <p>Completed records can support food-waste, sustainability, and program reporting.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="scope">
+      <div class="scope-layout">
+        <div class="section-heading compact">
+          <span>Project Scope</span>
+          <h2>What is included in the project.</h2>
+          <p>
+            The project is limited to systems analysis and design for an initial UVic-campus context.
+            It is not a production deployment.
+          </p>
+        </div>
+
+        <div class="scope-columns">
+          <div class="scope-card in">
+            <h3>In scope</h3>
+            <ul>
+              <li>Analyze selected UVic redistribution processes</li>
+              <li>Define system requirements</li>
+              <li>Develop use cases</li>
+              <li>Develop data and process models</li>
+              <li>Create a UI prototype</li>
+              <li>Document and present the proposed system</li>
+            </ul>
+          </div>
+          <div class="scope-card out">
+            <h3>Out of scope</h3>
+            <ul>
+              <li>Production deployment</li>
+              <li>Long-term system operation or maintenance</li>
+              <li>Expansion outside the initial campus environment</li>
+              <li>Direct community-member use in the initial version</li>
+              <li>Direct B2P or P2P redistribution</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="timeline">
+      <div class="section-heading">
+        <span>Project Progress</span>
+        <h2>Our project progress.</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="milestone complete"><span>Sep 27</span><strong>Request for Proposal</strong></div>
+        <div class="milestone complete"><span>Oct 5</span><strong>Project Charter</strong></div>
+        <div class="milestone current"><span>Oct 7</span><strong>Project Website</strong></div>
+        <div class="milestone"><span>Oct 11</span><strong>Requirements</strong></div>
+        <div class="milestone"><span>Oct 25</span><strong>Use Cases</strong></div>
+        <div class="milestone"><span>Nov 1</span><strong>Data Model</strong></div>
+        <div class="milestone"><span>Nov 8</span><strong>Process Model</strong></div>
+        <div class="milestone"><span>Nov 15</span><strong>UI Prototype</strong></div>
+        <div class="milestone"><span>Nov 22</span><strong>Final Report</strong></div>
+        <div class="milestone"><span>Nov 23</span><strong>Presentation</strong></div>
+      </div>
+    </section>
+
+
+    <section class="section" id="deliverables">
+      <div class="section-heading">
+        <span>What We Are Delivering</span>
+        <h2>What we are creating for the project.</h2>
+        <p>
+          For this course, we are focusing on the analysis and design of the proposed system. These are the main things we will create.
+        </p>
+      </div>
+
+      <div class="problem-grid">
+        <article class="panel">
+          <div class="icon-badge">R</div>
+          <h3>Requirements and Use Cases</h3>
+          <p>We will define what the system should do, what users need from it, and how the main users would interact with it.</p>
+        </article>
+
+        <article class="panel">
+          <div class="icon-badge">D</div>
+          <h3>Data and Process Models</h3>
+          <p>We will show what information the system needs to keep and how the redistribution process moves from one step to another.</p>
+        </article>
+
+        <article class="panel">
+          <div class="icon-badge">UI</div>
+          <h3>UI Prototype</h3>
+          <p>We will create mock-ups of the main screens to show how food-service staff, recipients, and pickup personnel could use the system.</p>
+        </article>
+      </div>
+    </section>
+
+
+
+    <section class="section alt" id="about-us">
+      <div class="section-heading">
+        <span>Know More About Us</span>
+        <h2>Meet the project team.</h2>
+        <p>Our group brings together different roles for the analysis and design of the proposed food redistribution system.</p>
+      </div>
+      <div class="team-grid">
+        <article class="member"><div class="avatar">MB</div><h3>Marissa Bumagat</h3><p><strong>Role:</strong> Project Manager (Client)</p><p>Represents client requirements, coordinates with the vendor project manager, and accepts project deliverables.</p></article>
+        <article class="member"><div class="avatar">IH</div><h3>Iris Ho</h3><p><strong>Role:</strong> Project Manager (Vendor)</p><p>Manages the project schedule and task assignments, monitors risks, and escalates unresolved issues.</p></article>
+        <article class="member"><div class="avatar">BZ</div><h3>Bowen Zhang</h3><p><strong>Role:</strong> System Analyst (Client)</p><p>Provides client-side process knowledge and helps validate requirements and use cases.</p></article>
+        <article class="member"><div class="avatar">MD</div><h3>Michal Dvoracek</h3><p><strong>Role:</strong> System Analyst (Vendor)</p><p>Works on requirements analysis, use cases, process models, and project documentation.</p></article>
+        <article class="member"><div class="avatar">AA</div><h3>Artan Abdolrahimzadeh</h3><p><strong>Role:</strong> Data Analyst (Vendor)</p><p>Develops the data/domain model and identifies the information needed to support project reporting.</p></article>
+        <article class="member"><div class="avatar">JL</div><h3>Jonathan Luelfesmann</h3><p><strong>Role:</strong> System Developer (Vendor)</p><p>Leads UI prototyping and reviews the technical feasibility of the proposed system design.</p></article>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div>
+        <span class="eyebrow light">From Waste to Worth</span>
+        <h2>Better coordination can help edible food reach people instead of being discarded.</h2>
+        <p>CSC 375 · Systems Analysis Project · University of Victoria</p>
+      </div>
+      <a class="btn light-btn" href="#home">Back to top ↑</a>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <strong>From Waste to Worth</strong>
+      <span>CSC 375 · University of Victoria · 2026</span>
+    </div>
+    <span>Student systems analysis & design project</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
